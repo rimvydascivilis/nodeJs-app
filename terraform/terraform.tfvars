@@ -1,0 +1,13 @@
+codestar_connection_arn = "arn:aws:codestar-connections:us-west-2:311025272297:connection/48672374-b1b9-4f51-8189-64526040ac59"
+repository_id           = "rimvydascivilis/nodejs-app"
+ecs_desired_count       = 2
+health_check_path       = "/health"
+aws_region              = "eu-central-1"
+azs                     = ["eu-central-1a", "eu-central-1b"]
+vpc_cidr                = "10.0.0.0/16"
+public_subnets_cidr     = ["10.0.1.0/24", "10.0.2.0/24"]
+private_subnets_cidr    = ["10.0.3.0/24", "10.0.4.0/24"]
+aws_account_id          = "311025272297"
+ecr_repository_name     = "nodejs-app"
+container_name          = "nodejs-app"
+image_tag               = "latest"
