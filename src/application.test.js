@@ -32,7 +32,7 @@ describe('application.test', () => {
     const response = await fetch('http://localhost:3000/hello');
     const json = await response.json();
 
-    expect(json).toEqual({ message: 'Hello World!' });
+    expect(json).toEqual({ message: 'Hello World! v2' });
   });
 
   it('should return a "Hello John!" message when sending a POST request to the /hello endpoint with {"name": "John"}', async () => {
